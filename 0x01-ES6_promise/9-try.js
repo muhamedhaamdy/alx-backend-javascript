@@ -1,6 +1,6 @@
 export default function guardrail(mathFunction) {
-  let q = [];
-  
+  const q = [];
+
   try {
     q.push(mathFunction());
   } catch (err) {
