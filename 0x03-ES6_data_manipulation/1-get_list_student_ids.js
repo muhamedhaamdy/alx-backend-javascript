@@ -3,6 +3,5 @@ export default function getStudentIds(arr) {
     return [];
   }
 
-  return arr.map(student => student.id);
+  return arr.map((student) => student.id);
 }
-
