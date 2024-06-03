@@ -1,15 +1,7 @@
 export default function getListStudents() {
-  let students = [];
-  const names = ['Guillaume', 'James', 'Serena'];
-  const locations = ['San Francisco', 'Columbia', 'San Francisco'];
-  
-  names.forEach((name, index) => {
-    students.push({
-      id: index + 1,
-      firstName: name,
-      location: locations[index]
-    });
-  });
-
-  return students;
+  return [
+    { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
+    { id: 2, firstName: 'James', location: 'Columbia' },
+    { id: 5, firstName: 'Serena', location: 'San Francisco' },
+  ];
 }
